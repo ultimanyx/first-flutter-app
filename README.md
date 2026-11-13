@@ -1,17 +1,33 @@
-# notes_app
+# My Notes (`notes_app`)
 
-A new Flutter project.
+A clean, lightweight Android notes application built with **Flutter** and **Dart** using Material 3 and local persistent storage.
+
+## Features
+
+- **Create & Edit Notes:** Full-screen distraction-free editor for writing titles and multi-line note bodies.
+- **Local Persistence:** Automatically saves and loads notes on the device using `shared_preferences` with JSON serialization—no internet connection required.
+- **Safe Deletion:** Includes a confirmation dialog before permanently removing a note.
+- **Material 3 UI:** Clean card-based list view with automatic text truncation and custom launcher icon support.
+
+## Tech Stack
+
+- **Framework:** Flutter (Material 3)
+- **Language:** Dart (`^3.13.7`)
+- **Packages:**
+  - `shared_preferences` (`^2.5.6`) — local key-value storage
+  - `flutter_launcher_icons` (`^0.14.4`) — adaptive app icon generation
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) installed and configured
+- Android SDK / connected Android device with USB debugging enabled
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Run Locally
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/ultimanyx/first-flutter-app.git](https://github.com/ultimanyx/first-flutter-app.git)
+   cd first-flutter-app
+   ```
